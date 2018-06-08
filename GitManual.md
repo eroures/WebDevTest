@@ -14,12 +14,11 @@ git config --global user.email "eparis@atlassian.com"
 
 Your first instinct, when you start to do something new, should be git init. You’re starting to write a new paper, you’re writing a bit of code to do a computer simulation, … anything: think ***git init***.
 
-## A new repo from scratch
+## A new repo from scratch || A new repo on existing project
 
 ```js
-1. Create a directory to contain the project
-2. Go inside the directory 
-3. git init
-4. git add . //add all files into the repository
-5. git commmit // submit all changes
+1. Go inside the directory (or create it) that contains the project 
+2. git init // Create an empty Git repository or reinitialize an existing one
+3. git add . //add ALL files into the repository
+4. git commmit -m 'message' // submit all changes
 ```

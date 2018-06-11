@@ -12,7 +12,7 @@ git config --global user.email "eparis@atlassian.com"
 
 ## Start a new git repository
 
-Your first instinct, when you start to do something new, should be git init. You’re starting to write a new paper, you’re writing a bit of code to do a computer simulation, … anything: think ***git init***.
+Your first instinct, when you start to do something new:  ***git init***.
 
 ## A new repo from scratch || A new repo on existing project
 
@@ -22,3 +22,23 @@ Your first instinct, when you start to do something new, should be git init. You
 3. git add . //add ALL files into the repository
 4. git commmit -m 'message' // submit all changes
 ```
+
+## Connect to github
+
+Now you have a local git repository that you can use, but in case you want to have a home in github:
+
+Go to github.
+Log in to your account.
+Click the new repository button in the top-right. You’ll have an option there 
+
+![Alternate text](resources\0.png)
+
+to initialize the repository with a README file, but I don’t.
+Click the “Create repository” button
+
+Once done
+
+````js
+git remote add origin https://github.com/eroures/WebDevTest.git //connecting the local repository to github 
+git push -u origin master
+````

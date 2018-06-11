@@ -56,4 +56,9 @@ When you create a branch off the master branch, you’re making a copy of master
 2. git branch <branchname> // create a branch named <branchname>
 3. git branch-show // to check that our branch was succesfully created
 4. git checkout <branchname> // switch from our current branch to <branchname>
+5. git push origin <branchname> // save changes to remote repository
 ```
+
+After pushing our changes it should look like this on git: 
+
+![Alternate text](resources\3.png)
